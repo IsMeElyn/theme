@@ -3,7 +3,7 @@ Pufferpanel Theme
 
 # How to Install 
 ```bash
-cd ~/var/www/pufferpanel && \
+cd ~ && cd /var/www/pufferpanel && \
 rm -rf theme && \
 git clone https://github.com/IsMeElyn/theme.git theme && \
 cd theme && \
