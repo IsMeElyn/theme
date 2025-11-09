@@ -21,7 +21,10 @@ sudo apt-get install pufferpanel
 sudo pufferpanel user add
 ```
 ```
-sudo systemctl enable --now
+sudo systemctl enable --now pufferpanel 
+```
+```
+pufferpanel run
 ```
 # How to uninstall Pufferpanel (Not Theme)
 ```bash
