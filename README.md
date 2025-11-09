@@ -16,10 +16,13 @@ rm -f README.md && \
 ```bash
 curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
 sudo apt-get install pufferpanel
-sudo pufferpanel user add
-sudo systemctl enable --now pufferpanel && cd ~ && cd /var/lib/pufferpanel && nano config.json && pufferpanel run
 ```
-
+```
+sudo pufferpanel user add
+```
+```
+sudo systemctl enable --now
+```
 # How to uninstall Pufferpanel (Not Theme)
 ```bash
 systemctl stop pufferpanel
